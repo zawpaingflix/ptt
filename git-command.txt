@@ -1,0 +1,62 @@
+github upload >> create repo >>
+Description = note 
+Public = unlimited
+Private = 2 repo
+----------------------------------------
+* create repo *
+
+* Git command *
+
+check git >> git --version (or)git 
+
+-------------------------------------------
+
+connect git and github >>
+*ssh key * >> ssh-keygen >> enter (3)
+
+id_rsa >> github profile setting >> ssh key add
+
+--------------------------------------------------
+
+upload step by step >>
+project folder >> right click - git bush >> 
+git installaiton = git init
+
+
+--------------------------------------------------------------------
+
+checking ssh = ssh -T git@hithub.com
+
+add user account & rewrite >>
+git config --global user.name "zawpaingflix" >> enter
+git config --global user.email "zawpaing.flix@gmail.com" >> enter
+
+-----------------------------------------------------------
+
+check username and email >> 
+git config user.name 
+git config user.email
+
+----------------------------------------------------
+
+link repo & git >>
+
+github.com >> my repo >> 
+
+Https or ssh >>
+
+SSH check and copy LINK >> 
+
+git remote add origin git@github.com:zawpaingflix/ptt.git
+
+check repo >> git remote -v
+
+
+-----------------------------------------------------------------
+git upload >> 
+check = git status
+>>> git add -A 
+
+
+
+
